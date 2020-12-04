@@ -1,6 +1,7 @@
 # odoo_optional_disable_auto_followers
 Allow optional disable automatic followers (for all modules) functionality in base.config.settings
-Note: this overrides base mail module.
+
+Note: this overrides corresponding files in base mail module.
 
 
 The fix is an enhanced/simplified version of this module: https://apps.odoo.com/apps/modules/8.0/sale_disable_auto_followers/  
