@@ -1,13 +1,18 @@
 # odoo_optional_disable_auto_followers
 Allow optional disable automatic followers (for all modules) functionality in base.config.settings
 
-Note: 
+# Note: 
 1. This overrides corresponding files in base mail module.
 2. Works for Odoo V8.0.
 
 The fix is an enhanced/simplified version of this module: https://apps.odoo.com/apps/modules/8.0/sale_disable_auto_followers/  
   
-   
+# How to use?
+1. Simply download and install the addon into your odoo instance (make sure that it overrides base mail module in the install process).
+2. Toggle “Disable Followers Functionality” in General Settings.   
+3. Play with modules like sale.order that originally have followers functionality.  
+
+# Descriptions/ explanations:
   
 ## For disabling automatic follower functionality:  
   
@@ -65,11 +70,3 @@ For example:
 ## For allowing manual follower functionality:  
   
 Simply pass a context key to the only 2 locations where a user can manually add followers: “Follow” and “Add Others” buttons.  
-  
-   
-  
-## Suggested path(s) to test:  
-  
-1. Toggle “Disable Followers Functionality” in General Settings.  
-  
-2. Play with modules like sale.order that originally have followers functionality.  
